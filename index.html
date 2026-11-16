@@ -1,0 +1,15 @@
+TASK-1: Add static web page in dev-ops-cluster-repo.
+git clone https://github.com/GoudSagar/dev-ops-cluster-repo.git
+cd dev-ops-cluster-repo
+git config --global user.name "GoudSagar"
+git config --global user.email "goud.sagar.t@gmail.com"
+
+git branch
+vi index.html -> add content -> :wq
+git add .
+git commit -m "Ticket no-727273 Adding static web page for automation"
+git remote -v
+origin https://github.com/GoudSagar/dev-ops-cluster-repo.git(fetch)
+origin https://github.com/GoudSagar/dev-ops-cluster-repo.git(push)
+
+git push origin main
